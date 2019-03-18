@@ -56,6 +56,7 @@
 * Added argument `raise_if_too_far_away=True` to `Polygon.change_first_point_by_coords()`.
 * Added property `Polygon.height`.
 * Added property `Polygon.width`.
+* Fixed assert in `SegmentationMapOnImage` falsely checking if max class index is `<= nb_classes` instead of `< nb_classes`. 
 
 
 # 0.2.8
