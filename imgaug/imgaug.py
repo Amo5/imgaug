@@ -6874,7 +6874,6 @@ class Batch(object):
         if ntype == "None":
             return None
         elif ntype == "array[float]":
-            # TODO how to handle array with N=0?
             assert images is not None
             assert attr.ndim == 4  # always (N,H,W,C)
             assert len(attr) == len(images)
