@@ -58,6 +58,11 @@
 * Added property `Polygon.width`.
 * Fixed assert in `SegmentationMapOnImage` falsely checking if max class index is `<= nb_classes` instead of `< nb_classes`. 
 * Moved `Keypoint`, `KeypointsOnImage` and `imgaug.imgaug.compute_geometric_median` to `augmentables/kps.py`.
+* Moved `BoundingBox`, `BoundingBoxesOnImage` to `augmentables/bbs.py`.
+* Moved `Polygon`, `PolygonsOnImage` and related classes/functions to `augmentables/polys.py`.
+* Moved `HeatmapsOnImage` to `augmentables/heatmaps.py`.
+* Moved `SegmentationMapOnImage` to `augmentables/segmaps.py`.
+* Moved `Batch` to `augmentables/batches.py`.
 
 
 # 0.2.8
